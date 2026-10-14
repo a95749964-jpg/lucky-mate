@@ -32,7 +32,7 @@ export function previousDate(date: string) {
   return new Date(Date.parse(date + 'T00:00:00Z') - 86400000).toISOString().slice(0, 10);
 }
 export function validKeyring(id: unknown): id is string {
-  return typeof id === 'string' && /^FC(00[1-9]|0[1-9]\d|100)$/.test(id);
+  return typeof id === 'string' && /^FC(00[1-9]|0[1-9]\d|1[01]\d|120)$/.test(id); 
 }
 export function validCategory(value: unknown): value is Category {
   return categories.includes(value as Category);
