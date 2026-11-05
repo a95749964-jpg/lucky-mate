@@ -538,7 +538,7 @@ export default function Experience({ path, localDemo }: { path: string[]; localD
             </p>
             <div className="hero-art">
                             <img
-                src="/keycap.jpg"
+                src="/images/keycap.jpg"
                 alt="럭키메이트 네잎클로버 키캡 키링"
                 style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit', display: 'block' }}
               />
