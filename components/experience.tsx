@@ -537,11 +537,11 @@ export default function Experience({ path, localDemo }: { path: string[]; localD
               오늘의 행운을 알려드려요.
             </p>
             <div className="hero-art">
-              <span className="keycap-placeholder">
-                4조의 멋있는
-                <br />
-                키캡 이미지
-              </span>
+                            <img
+                src="/images/keycap.jpg"
+                alt="럭키메이트 네잎클로버 키캡 키링"
+                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit', display: 'block' }}
+              />
             </div>
             <section className="howto">
               <h2>이용 방법</h2>
